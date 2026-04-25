@@ -1,0 +1,20 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(/assets/DM-Sans.ttf);
+}
+
+* {
+    font-family: DM Sans, sans-serif;
+}
+
+#header {
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+#footer1 {
+    text-align: center;
+    
+}
