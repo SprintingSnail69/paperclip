@@ -7,14 +7,41 @@
     font-family: DM Sans, sans-serif;
 }
 
+
+
+/* had to use the almighty w3schools for flexboxes */
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
+
+#content {
+    flex: 1;
+    background-color: black;
+}
+
 #header {
-    padding: 20px;
+    padding: 0px;
     font-size: 4em;
     text-align: center;
-    
 }
 
 #footer1 {
     text-align: center;
-    
+    font-size: 1.1em;
+    padding: 30px;
+    color: white;
+}
+
+#footerContent {
+    background-color: black;
+}
+
+#date {
+    text-align: center;
+    font-size: 1.67em; /* SIX SEVEN SO FUNNI */
 }
